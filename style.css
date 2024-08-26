@@ -104,7 +104,9 @@ nav{
     -webkit-transition: .4s;
     transition: .4s;
   }
-  
+  .main-1{
+    /* background-color: #110f0f; */
+  }
   input:checked + .slider {
     background-image: url(sun.png);
     background-color: #110f0f;
@@ -142,14 +144,18 @@ section{
 .left{
     width: 38rem;
     /* background-color: red;    */
+    /* overflow: hidden; */
 }
 .left>h1{
     margin:1.5rem 1.5rem 1.5rem 0rem;
 }
 .left>img{
 width: 100%;
-object-fit: cover;
+object-fit: fill;
+/* overflow: hidden; */
+
 }
+
 .text-1>p{
     margin:1.2rem 0rem 0.5rem 0rem;
     color: blueviolet;
