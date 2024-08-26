@@ -155,6 +155,28 @@ object-fit: fill;
 /* overflow: hidden; */
 
 }
+.left>img:hover{
+
+    transform: translatey(-1rem);
+    transition: all;
+    transition-duration: 0.5s;
+    border:3px solid black
+}
+.right-1>img:hover{
+    
+    transform: translatey(-1rem);
+    transition: all;
+    transition-duration: 0.5s;
+    border:3px solid black
+}
+.card2>img:hover{
+    
+    transform: translatey(-1rem);
+    transition: all;
+    transition-duration: 0.5s;
+    border:3px solid black
+}
+
 
 .text-1>p{
     margin:1.2rem 0rem 0.5rem 0rem;
@@ -288,7 +310,7 @@ object-fit: fill;
     font-size: 1.5rem;
 }
 .card2{
-    background-color: rgb(189, 122, 34);
+    /* background-color: rgb(189, 122, 34); */
     height: 15rem;
     width: 38rem;
     /* margin-left: 1rem; */

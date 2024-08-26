@@ -14,39 +14,51 @@ function load(){
     
     tl.to(".page1",{
         y:"-45vh",
-        duration:2,
+        duration:0.5,
         
     })
     tl.to(".page1",{
         rotate:360,
         y:"0vh",
         scale:1,
-        duration:2
+        duration:0.5
     })
+    after()
     }
 
     load()
-    // var tl= gsap.timeline()
-    // tl.from(".name",{
-    // y:"-15vh",
-    // duration:1
-    // })
-    // tl.from(".anchor",{
-    // y:"-15vh",
-    // duration:1.5
-    // })
-    // tl.from(".navbar li a",{
-    // y:"-15vh",
-    // duration:0.5
-    // })
-    // tl.from(".anchor3",{
-    // y:"-15vh",
-    // duration:2.5
-    // })
-    // tl.from(".switch",{
-    // y:"-15vh",
-    // duration:3
-    // })
+    function after(){
+    var tl= gsap.timeline()
+      tl.from(".nav-content",{
+        x:"250000vh",
+        duration:1.5
+      })
+    tl.from(".main-h",{
+    y:"-2200vh",
+    duration:0.3,
+    // rotate:360
+    })
+    tl.from(".name",{
+    x:"-2200vh",
+    duration:0.3,
+    
+    // rotate:360
+    })
+    tl.from(".section",{
+    y:"2200vh",
+    scale:0.4,
+    duration:0.3,
+    
+    // rotate:360
+    })
+    tl.from(".card1",{
+    x:"2200vh",
+    scale:0.4,
+    duration:0.3,
+    
+    // rotate:360
+    })
+}
 // console.log("hello")
 let btn = document.querySelector(".checkbox");
 let body = document.querySelector("body");
